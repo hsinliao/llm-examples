@@ -1,0 +1,8 @@
+spring:
+  ai:
+    openai:
+      api-key: ${DS_AUTH_TOKEN}
+      base-url: https://api.deepseek.com   # 若用 DeepSeek，换成兼容地址
+      chat:
+        options:
+          model: deepseek-chat
